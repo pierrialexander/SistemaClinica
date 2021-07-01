@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/07/01 19:26:03.892,=C:\Users\Pierri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/01 19:27:08.951,C:\DELPHI\SistemaClinica\unitPrincipal.dfm=C:\Users\Pierri\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/07/01 19:27:08.951,C:\DELPHI\SistemaClinica\unitPrincipal.pas=C:\Users\Pierri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/01 19:27:17.706,C:\DELPHI\SistemaClinica\Clinica.dproj=C:\Users\Pierri\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/07/01 19:59:35.479,=C:\DELPHI\SistemaClinica\Unit2.pas</Transaction>
+    <Transaction>2021/07/01 20:00:04.017,C:\DELPHI\SistemaClinica\unitCadPacientes.pas=C:\DELPHI\SistemaClinica\Unit2.pas</Transaction>
+    <Transaction>2021/07/01 20:00:04.017,C:\DELPHI\SistemaClinica\unitCadPacientes.dfm=C:\DELPHI\SistemaClinica\Unit2.dfm</Transaction>
+    <Transaction>2021/07/01 20:00:18.946,=C:\DELPHI\SistemaClinica\Unit3.pas</Transaction>
+    <Transaction>2021/07/01 20:00:42.966,C:\DELPHI\SistemaClinica\unitCadAgendamentos.dfm=C:\DELPHI\SistemaClinica\Unit3.dfm</Transaction>
+    <Transaction>2021/07/01 20:00:42.966,C:\DELPHI\SistemaClinica\unitCadAgendamentos.pas=C:\DELPHI\SistemaClinica\Unit3.pas</Transaction>
+  </Transactions>
+</BorlandProject>
