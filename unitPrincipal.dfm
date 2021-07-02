@@ -1,4 +1,4 @@
-object Form1: TForm1
+object formPrincipal: TformPrincipal
   Left = 0
   Top = 0
   Caption = 'Sistema de Cl'#237'nica M'#233'dica'
@@ -986,6 +986,7 @@ object Form1: TForm1
       Layout = blGlyphTop
       ParentFont = False
       TabOrder = 0
+      OnClick = BitBtn1Click
     end
     object BitBtn2: TBitBtn
       Left = 106
@@ -1221,11 +1222,12 @@ object Form1: TForm1
       Layout = blGlyphTop
       ParentFont = False
       TabOrder = 1
+      OnClick = BitBtn2Click
     end
   end
   object MainMenu1: TMainMenu
-    Left = 32
-    Top = 408
+    Left = 248
+    Top = 24
     object Sistema1: TMenuItem
       Caption = 'Sistema'
       object Sair1: TMenuItem
@@ -1237,9 +1239,11 @@ object Form1: TForm1
       Caption = 'Cadastros'
       object Pacientes1: TMenuItem
         Caption = 'Pacientes'
+        OnClick = Pacientes1Click
       end
       object Agendamentos1: TMenuItem
         Caption = 'Agendamentos'
+        OnClick = Agendamentos1Click
       end
     end
   end

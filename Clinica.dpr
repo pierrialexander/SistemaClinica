@@ -2,17 +2,17 @@ program Clinica;
 
 uses
   Vcl.Forms,
-  unitPrincipal in 'unitPrincipal.pas' {Form1},
-  unitCadPacientes in 'unitCadPacientes.pas' {Form2},
-  unitCadAgendamentos in 'unitCadAgendamentos.pas' {Form3};
+  unitPrincipal in 'unitPrincipal.pas' {formPrincipal},
+  unitCadPacientes in 'unitCadPacientes.pas' {formCadPacientes},
+  unitCadAgendamentos in 'unitCadAgendamentos.pas' {formCadAgendamentos};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
-  Application.CreateForm(TForm2, Form2);
-  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TformPrincipal, formPrincipal);
+  Application.CreateForm(TformCadPacientes, formCadPacientes);
+  Application.CreateForm(TformCadAgendamentos, formCadAgendamentos);
   Application.Run;
 end.
