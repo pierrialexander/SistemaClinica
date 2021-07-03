@@ -14,14 +14,14 @@
     <Transaction>2021/07/01 21:17:01.000.116,=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
     <Transaction>2021/07/01 21:47:03.000.925,C:\DELPHI\SistemaClinica\SistemaClinica\unitDM.pas=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
     <Transaction>2021/07/01 21:47:03.000.925,C:\DELPHI\SistemaClinica\SistemaClinica\unitDM.dfm=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.dfm</Transaction>
-    <Transaction>2021/07/02 20:54:09.034,=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
-    <Transaction>2021/07/02 20:54:29.992,C:\DELPHI\SistemaClinica\SistemaClinica\unitCadEspecialidades.dfm=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.dfm</Transaction>
-    <Transaction>2021/07/02 20:54:29.992,C:\DELPHI\SistemaClinica\SistemaClinica\unitCadEspecialidades.pas=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
-    <Transaction>2021/07/02 21:00:58.066,=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
-    <Transaction>2021/07/02 21:45:21.585,C:\DELPHI\SistemaClinica\SistemaClinica\unitCadMedicos.pas=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
-    <Transaction>2021/07/02 21:45:21.585,C:\DELPHI\SistemaClinica\SistemaClinica\unitCadMedicos.dfm=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.dfm</Transaction>
-    <Transaction>2021/07/02 21:53:02.505,=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
-    <Transaction>2021/07/02 22:03:29.374,C:\DELPHI\SistemaClinica\SistemaClinica\unitSobre.pas=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
-    <Transaction>2021/07/02 22:03:29.374,C:\DELPHI\SistemaClinica\SistemaClinica\unitSobre.dfm=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.dfm</Transaction>
+    <Transaction>2021/07/02 20:54:09.000.034,=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
+    <Transaction>2021/07/02 20:54:29.000.992,C:\DELPHI\SistemaClinica\SistemaClinica\unitCadEspecialidades.dfm=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.dfm</Transaction>
+    <Transaction>2021/07/02 20:54:29.000.992,C:\DELPHI\SistemaClinica\SistemaClinica\unitCadEspecialidades.pas=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
+    <Transaction>2021/07/02 21:00:58.000.066,=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
+    <Transaction>2021/07/02 21:45:21.000.585,C:\DELPHI\SistemaClinica\SistemaClinica\unitCadMedicos.pas=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
+    <Transaction>2021/07/02 21:45:21.000.585,C:\DELPHI\SistemaClinica\SistemaClinica\unitCadMedicos.dfm=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.dfm</Transaction>
+    <Transaction>2021/07/02 21:53:02.000.505,=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
+    <Transaction>2021/07/02 22:03:29.000.374,C:\DELPHI\SistemaClinica\SistemaClinica\unitSobre.pas=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.pas</Transaction>
+    <Transaction>2021/07/02 22:03:29.000.374,C:\DELPHI\SistemaClinica\SistemaClinica\unitSobre.dfm=C:\DELPHI\SistemaClinica\SistemaClinica\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

@@ -73,6 +73,7 @@ object DM: TDM
     object tbEspecialidadeid: TFDAutoIncField
       FieldName = 'id'
       Origin = 'id'
+      ReadOnly = True
     end
     object tbEspecialidadeepecialidade: TStringField
       AutoGenerateValue = arDefault
@@ -97,6 +98,7 @@ object DM: TDM
     object tbMedicoid: TFDAutoIncField
       FieldName = 'id'
       Origin = 'id'
+      ReadOnly = True
     end
     object tbMediconome: TStringField
       AutoGenerateValue = arDefault
@@ -108,6 +110,7 @@ object DM: TDM
       AutoGenerateValue = arDefault
       FieldName = 'cpf'
       Origin = 'cpf'
+      EditMask = '999.999.999-99;1;_'
       Size = 16
     end
     object tbMedicorg: TStringField
@@ -120,6 +123,7 @@ object DM: TDM
       AutoGenerateValue = arDefault
       FieldName = 'cep'
       Origin = 'cep'
+      EditMask = '99.999-999;1;_'
       Size = 14
     end
     object tbMedicocidade: TStringField
@@ -174,6 +178,7 @@ object DM: TDM
     object tbAgendamentoid: TFDAutoIncField
       FieldName = 'id'
       Origin = 'id'
+      ReadOnly = True
     end
     object tbAgendamentoid_paciente: TIntegerField
       AutoGenerateValue = arDefault
@@ -184,11 +189,13 @@ object DM: TDM
       AutoGenerateValue = arDefault
       FieldName = 'data'
       Origin = 'data'
+      EditMask = '!99/99/0000;1;_'
     end
     object tbAgendamentohora: TStringField
       AutoGenerateValue = arDefault
       FieldName = 'hora'
       Origin = 'hora'
+      EditMask = '!90:00;1;_'
       Size = 8
     end
     object tbAgendamentoespecialidade: TStringField

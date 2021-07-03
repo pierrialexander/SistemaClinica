@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.DBCtrls, Vcl.Mask,
-  Vcl.ExtCtrls;
+  Vcl.ExtCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids;
 
 type
   TformCadAgendamentos = class(TForm)
@@ -24,6 +24,7 @@ type
     Label7: TLabel;
     DBLookupComboBox2: TDBLookupComboBox;
     DBLookupComboBox3: TDBLookupComboBox;
+    DBGrid1: TDBGrid;
     procedure FormCreate(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private

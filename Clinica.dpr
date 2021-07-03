@@ -8,7 +8,9 @@ uses
   unitDM in 'unitDM.pas' {DM: TDataModule},
   unitCadEspecialidades in 'unitCadEspecialidades.pas' {formCadEspecialidades},
   unitCadMedicos in 'unitCadMedicos.pas' {formCadMedicos},
-  unitSobre in 'unitSobre.pas' {formSobre};
+  unitSobre in 'unitSobre.pas' {formSobre},
+  Vcl.Themes,
+  Vcl.Styles;
 
 {$R *.res}
 

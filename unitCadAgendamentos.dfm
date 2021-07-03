@@ -137,7 +137,7 @@ object formCadAgendamentos: TformCadAgendamentos
   object DBLookupComboBox1: TDBLookupComboBox
     Left = 124
     Top = 128
-    Width = 261
+    Width = 205
     Height = 21
     DataField = 'id_paciente'
     DataSource = DM.dsAgendamento
@@ -162,6 +162,7 @@ object formCadAgendamentos: TformCadAgendamentos
     Height = 21
     DataField = 'hora'
     DataSource = DM.dsAgendamento
+    MaxLength = 5
     TabOrder = 4
   end
   object DBLookupComboBox2: TDBLookupComboBox
@@ -187,5 +188,39 @@ object formCadAgendamentos: TformCadAgendamentos
     ListField = 'nome'
     ListSource = DM.dsMedico
     TabOrder = 6
+  end
+  object DBGrid1: TDBGrid
+    Left = 351
+    Top = 128
+    Width = 327
+    Height = 225
+    DataSource = DM.dsAgendamento
+    TabOrder = 7
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'data'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'hora'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'especialidade'
+        Visible = True
+      end>
   end
 end
