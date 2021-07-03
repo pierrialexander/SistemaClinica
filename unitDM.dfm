@@ -19,11 +19,12 @@ object DM: TDM
     Connection = Conexao
     UpdateOptions.UpdateTableName = 'clinica.paciente'
     TableName = 'clinica.paciente'
-    Left = 168
+    Left = 152
     Top = 40
     object tbPacienteid: TFDAutoIncField
       FieldName = 'id'
       Origin = 'id'
+      ReadOnly = True
     end
     object tbPacientenome: TStringField
       AutoGenerateValue = arDefault
@@ -51,13 +52,124 @@ object DM: TDM
       Size = 14
     end
   end
+  object dsPaciente: TDataSource
+    DataSet = tbPaciente
+    Left = 152
+    Top = 112
+  end
+  object dsAgendamento: TDataSource
+    DataSet = tbAgendamento
+    Left = 256
+    Top = 112
+  end
+  object tbEspecialidade: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    UpdateOptions.UpdateTableName = 'clinica.especialidade'
+    TableName = 'clinica.especialidade'
+    Left = 368
+    Top = 40
+    object tbEspecialidadeid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+    end
+    object tbEspecialidadeepecialidade: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'epecialidade'
+      Origin = 'epecialidade'
+      Size = 80
+    end
+  end
+  object dsEspecialidade: TDataSource
+    DataSet = tbEspecialidade
+    Left = 368
+    Top = 112
+  end
+  object tbMedico: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    UpdateOptions.UpdateTableName = 'clinica.medico'
+    TableName = 'clinica.medico'
+    Left = 472
+    Top = 40
+    object tbMedicoid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+    end
+    object tbMediconome: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'nome'
+      Origin = 'nome'
+      Size = 50
+    end
+    object tbMedicocpf: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'cpf'
+      Origin = 'cpf'
+      Size = 16
+    end
+    object tbMedicorg: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'rg'
+      Origin = 'rg'
+      Size = 10
+    end
+    object tbMedicocep: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'cep'
+      Origin = 'cep'
+      Size = 14
+    end
+    object tbMedicocidade: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'cidade'
+      Origin = 'cidade'
+      Size = 50
+    end
+    object tbMedicoestado: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'estado'
+      Origin = 'estado'
+      Size = 30
+    end
+    object tbMedicocelular: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'celular'
+      Origin = 'celular'
+      Size = 16
+    end
+    object tbMedicoemail: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'email'
+      Origin = 'email'
+      Size = 50
+    end
+    object tbMedicoidespecialidade: TIntegerField
+      AutoGenerateValue = arDefault
+      FieldName = 'idespecialidade'
+      Origin = 'idespecialidade'
+    end
+    object tbMedicoespecialidade: TStringField
+      AutoGenerateValue = arDefault
+      FieldName = 'especialidade'
+      Origin = 'especialidade'
+      Size = 80
+    end
+  end
+  object dsMedico: TDataSource
+    DataSet = tbMedico
+    Left = 472
+    Top = 112
+  end
   object tbAgendamento: TFDTable
     Active = True
     IndexFieldNames = 'id'
     Connection = Conexao
     UpdateOptions.UpdateTableName = 'clinica.agendamento'
     TableName = 'clinica.agendamento'
-    Left = 264
+    Left = 256
     Top = 40
     object tbAgendamentoid: TFDAutoIncField
       FieldName = 'id'
@@ -91,15 +203,15 @@ object DM: TDM
       Origin = 'medico'
       Size = 30
     end
-  end
-  object dsPaciente: TDataSource
-    DataSet = tbPaciente
-    Left = 168
-    Top = 112
-  end
-  object dsAgendamento: TDataSource
-    DataSet = tbAgendamento
-    Left = 264
-    Top = 112
+    object tbAgendamentoid_especialidade: TIntegerField
+      AutoGenerateValue = arDefault
+      FieldName = 'id_especialidade'
+      Origin = 'id_especialidade'
+    end
+    object tbAgendamentoid_medico: TIntegerField
+      AutoGenerateValue = arDefault
+      FieldName = 'id_medico'
+      Origin = 'id_medico'
+    end
   end
 end

@@ -21,9 +21,9 @@ type
     DBEdit2: TDBEdit;
     Label5: TLabel;
     Label6: TLabel;
-    DBComboBox1: TDBComboBox;
     Label7: TLabel;
-    DBEdit3: TDBEdit;
+    DBLookupComboBox2: TDBLookupComboBox;
+    DBLookupComboBox3: TDBLookupComboBox;
     procedure FormCreate(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
@@ -39,7 +39,7 @@ implementation
 
 {$R *.dfm}
 
-uses unitDM;
+uses unitDM, unitCadEspecialidades, unitCadMedicos, unitCadPacientes;
 
 procedure TformCadAgendamentos.FormCreate(Sender: TObject);
 begin

@@ -121,7 +121,7 @@ object formCadAgendamentos: TformCadAgendamentos
       Top = 24
       Width = 270
       Height = 33
-      DataSource = DM.dsPaciente
+      DataSource = DM.dsAgendamento
       TabOrder = 0
     end
   end
@@ -139,6 +139,10 @@ object formCadAgendamentos: TformCadAgendamentos
     Top = 128
     Width = 261
     Height = 21
+    DataField = 'id_paciente'
+    DataSource = DM.dsAgendamento
+    KeyField = 'id'
+    ListField = 'nome'
     ListSource = DM.dsPaciente
     TabOrder = 2
   end
@@ -160,27 +164,28 @@ object formCadAgendamentos: TformCadAgendamentos
     DataSource = DM.dsAgendamento
     TabOrder = 4
   end
-  object DBComboBox1: TDBComboBox
+  object DBLookupComboBox2: TDBLookupComboBox
     Left = 41
     Top = 248
-    Width = 188
+    Width = 248
     Height = 21
-    DataField = 'especialidade'
+    DataField = 'id_especialidade'
     DataSource = DM.dsAgendamento
-    Items.Strings = (
-      'Cardiologista'
-      'Ortopedista'
-      'Fisioterapeuta'
-      'Psicologo')
+    KeyField = 'id'
+    ListField = 'epecialidade'
+    ListSource = DM.dsEspecialidade
     TabOrder = 5
   end
-  object DBEdit3: TDBEdit
+  object DBLookupComboBox3: TDBLookupComboBox
     Left = 41
     Top = 304
-    Width = 224
+    Width = 248
     Height = 21
-    DataField = 'medico'
+    DataField = 'id_medico'
     DataSource = DM.dsAgendamento
+    KeyField = 'id'
+    ListField = 'nome'
+    ListSource = DM.dsMedico
     TabOrder = 6
   end
 end
