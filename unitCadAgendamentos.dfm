@@ -14,6 +14,8 @@ object formCadAgendamentos: TformCadAgendamentos
   Font.Style = []
   OldCreateOrder = False
   Position = poMainFormCenter
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
   PixelsPerInch = 96
   TextHeight = 13
   object Label2: TLabel

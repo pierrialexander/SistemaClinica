@@ -24,6 +24,8 @@ type
     DBComboBox1: TDBComboBox;
     Label7: TLabel;
     DBEdit3: TDBEdit;
+    procedure FormCreate(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
     { Private declarations }
   public
@@ -38,5 +40,17 @@ implementation
 {$R *.dfm}
 
 uses unitDM;
+
+procedure TformCadAgendamentos.FormCreate(Sender: TObject);
+begin
+     KeyPreview := True;
+end;
+
+procedure TformCadAgendamentos.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+    if (Key = VK_ESCAPE) then
+    Close;
+end;
 
 end.

@@ -26,6 +26,8 @@ type
     txtBusca: TEdit;
     Label7: TLabel;
     procedure txtBuscaChange(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
     { Private declarations }
   public
@@ -40,6 +42,18 @@ implementation
 {$R *.dfm}
 
 uses unitDM;
+
+procedure TformCadPacientes.FormCreate(Sender: TObject);
+begin
+    KeyPreview := True;
+end;
+
+procedure TformCadPacientes.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+    if (Key = VK_ESCAPE) then
+    Close;
+end;
 
 procedure TformCadPacientes.txtBuscaChange(Sender: TObject);
 begin

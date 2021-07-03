@@ -14,6 +14,8 @@ object formCadPacientes: TformCadPacientes
   Font.Style = []
   OldCreateOrder = False
   Position = poMainFormCenter
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
   PixelsPerInch = 96
   TextHeight = 13
   object Label2: TLabel
@@ -59,7 +61,7 @@ object formCadPacientes: TformCadPacientes
     Left = 41
     Top = 240
     Width = 39
-    Height = 14
+    Height = 13
     Caption = 'Celular'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -187,11 +189,6 @@ object formCadPacientes: TformCadPacientes
       item
         Expanded = False
         FieldName = 'nome'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -11
-        Font.Name = 'Tahoma'
-        Font.Style = []
         Title.Caption = 'Nome Completo'
         Visible = True
       end>
